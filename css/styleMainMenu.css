@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(9, 155, 118);
+  font-family: "Viga";
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 2.5em;
+  left: 9.5em;
+}
+
+.tombolMulai {
+  width: 90px;
+  height: 40px;
+  border: 1px solid white;
+  margin: auto;
+  margin-top: 17em;
+  border-radius: 6px;
+}
+
+.tombolMulai:hover {
+  background-color: #eaeaea;
+}
+
+.mulai a {
+  position: relative;
+  left: 21px;
+  bottom: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.mulai:hover a {
+  color: #333;
+  cursor: pointer;
+}
+
+.tombolAbout {
+  width: 90px;
+  height: 40px;
+  border: 1px solid white;
+  margin: auto;
+  margin-top: 1em;
+  border-radius: 6px;
+}
+
+.tombolAbout:hover {
+  background-color: #eaeaea;
+}
+
+.about a {
+  position: relative;
+  left: 11px;
+  bottom: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.about:hover a {
+  color: #333;
+  cursor: pointer;
+}
